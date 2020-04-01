@@ -1,0 +1,17 @@
+.Project { 
+    flex-basis: 33%;
+    -ms-flex: auto;
+    margin-bottom: 15px;
+}
+.Project h4 {
+    margin: 10px 0px;
+}
+.Project p {
+    margin: 5px 0px;
+}
+
+.Project img {
+    min-width: 150px;
+    min-height: 100px;
+    background-color: aqua;
+}

@@ -3,7 +3,7 @@ import './Header.css'
 export default function Header() {
     return(
         <header className="Header">
-            <h1 >Philip Franchi</h1>
+            <h1 >Philip Franchi-Pereira</h1>
         </header>
     );
 }
