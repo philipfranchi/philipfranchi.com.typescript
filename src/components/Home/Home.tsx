@@ -6,8 +6,7 @@ import Page from '../Page/Page'
 }*/
 
 export default function Home() {
-    return <Page>
-        <h3>Welcome to my site!</h3>
+    return <Page pageName="Welcome to my site!">
         <p>
             I'm a software engineer currently based in New York City. 
             I've been working in the tech industry since 2016 - first

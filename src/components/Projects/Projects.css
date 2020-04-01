@@ -10,4 +10,7 @@
     .Project {
         flex-direction: column;
     }
+    .Project p {
+        text-align: center;
+    }
 }

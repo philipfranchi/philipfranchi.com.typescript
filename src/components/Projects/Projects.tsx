@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from '../Project/Project'
+import Page from '../Page/Page'
 import './Projects.css'
 
 export default function Projects() {
@@ -34,11 +35,10 @@ export default function Projects() {
         return <Project key={project.title} title={project.title} image={project.img} desc={project.desc} />
     })
     return(
-        <>
-        <h2>Projects</h2>
-        <div className="Projects">
-            {projectComponents}
-        </div>
-        </>
+        <Page pageName="Projects">
+            <div className="Projects">
+                {projectComponents}
+            </div>
+        </Page>
     )
 }

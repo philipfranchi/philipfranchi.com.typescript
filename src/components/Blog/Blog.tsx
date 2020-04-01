@@ -1,4 +1,7 @@
 import React from 'react'
+import Page from '../Page/Page'
 export default function Blog() {
-    return <h2>Blog</h2>
+    return <Page pageName="Blog">
+        
+    </Page>
 }

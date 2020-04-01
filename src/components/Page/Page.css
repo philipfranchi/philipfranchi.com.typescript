@@ -1,3 +1,12 @@
 .Page {
     margin-top: 10px;
 }
+@media screen and (max-width: 650px) {
+    .Page {
+        padding: 0 20px 0px 20px;
+    }
+
+    .Page p {
+        text-align: left;
+    }
+}
